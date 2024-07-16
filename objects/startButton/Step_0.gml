@@ -4,7 +4,7 @@
 
 image_speed = 0;
 
-if (keyboard_check(ord("M"))) {
+if (keyboard_check(vk_enter)) {
 	image_index = 1;
 }
 else {

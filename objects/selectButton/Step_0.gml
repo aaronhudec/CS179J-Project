@@ -4,7 +4,7 @@
 
 image_speed = 0;
 
-if (keyboard_check(ord("N"))) {
+if (keyboard_check(vk_shift)) {
 	image_index = 1;
 }
 else {
