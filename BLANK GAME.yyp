@@ -41,11 +41,12 @@
     {"id":{"name":"leftButton","path":"objects/leftButton/leftButton.yy",},},
     {"id":{"name":"note_spawner","path":"objects/note_spawner/note_spawner.yy",},},
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
+    {"id":{"name":"obj_test_button_01","path":"objects/obj_test_button_01/obj_test_button_01.yy",},},
     {"id":{"name":"rightButton","path":"objects/rightButton/rightButton.yy",},},
     {"id":{"name":"selectButton","path":"objects/selectButton/selectButton.yy",},},
     {"id":{"name":"startButton","path":"objects/startButton/startButton.yy",},},
     {"id":{"name":"upButton","path":"objects/upButton/upButton.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomTest","path":"rooms/RoomTest/RoomTest.yy",},},
     {"id":{"name":"a","path":"sprites/a/a.yy",},},
     {"id":{"name":"b","path":"sprites/b/b.yy",},},
     {"id":{"name":"down","path":"sprites/down/down.yy",},},
@@ -59,7 +60,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomTest","path":"rooms/RoomTest/RoomTest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
