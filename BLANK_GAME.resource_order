@@ -1,0 +1,6 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"fps_counter","order":1,"path":"objects/fps_counter/fps_counter.yy",},
+  ],
+}
