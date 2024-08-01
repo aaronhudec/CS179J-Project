@@ -1,2 +1,2 @@
-speed = 3;
+speed = 0;
 direction = 270; // Move down
