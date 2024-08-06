@@ -51,15 +51,19 @@ function spawn_note(note_type, note_duration) {
     var x_coordinate;
     switch(note_type) {
         case "LEFT": x_coordinate = global.columns[0]; break;
-        case "UP": x_coordinate = global.columns[1]; break;
-        case "DOWN": x_coordinate = global.columns[2]; break;
+        case "DOWN": x_coordinate = global.columns[1]; break; // UP DOWN SWAP
+        case "UP": x_coordinate = global.columns[2]; break;
         case "RIGHT": x_coordinate = global.columns[3]; break;
         case "A": x_coordinate = global.columns[4]; break;
         case "B": x_coordinate = global.columns[5]; break;
     }
 
     if (layer_exists("Notes")) {
-        var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note);
+		if (x_coordinate > 240) {
+			var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note);
+		} else {
+			var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note_blue);
+		}
         note_instance.type = note_type;
         note_instance.duration = note_duration;
         note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier

@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.0.157",
+    "IDEVersion":"2024.6.1.160",
   },
   "name":"BLANK_GAME",
   "resources":[
@@ -46,6 +46,7 @@
     {"id":{"name":"note_sequencer","path":"objects/note_sequencer/note_sequencer.yy",},},
     {"id":{"name":"obj_Difficulty","path":"objects/obj_Difficulty/obj_Difficulty.yy",},},
     {"id":{"name":"obj_note_1","path":"objects/obj_note_1/obj_note_1.yy",},},
+    {"id":{"name":"obj_note_blue","path":"objects/obj_note_blue/obj_note_blue.yy",},},
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
     {"id":{"name":"obj_Pause","path":"objects/obj_Pause/obj_Pause.yy",},},
     {"id":{"name":"obj_SelectMain","path":"objects/obj_SelectMain/obj_SelectMain.yy",},},
@@ -63,8 +64,11 @@
     {"id":{"name":"b","path":"sprites/b/b.yy",},},
     {"id":{"name":"down","path":"sprites/down/down.yy",},},
     {"id":{"name":"left","path":"sprites/left/left.yy",},},
+    {"id":{"name":"Note_blue","path":"sprites/Note_blue/Note_blue.yy",},},
     {"id":{"name":"Note","path":"sprites/Note/Note.yy",},},
     {"id":{"name":"right","path":"sprites/right/right.yy",},},
+    {"id":{"name":"room_grid_guide","path":"sprites/room_grid_guide/room_grid_guide.yy",},},
+    {"id":{"name":"room_grid","path":"sprites/room_grid/room_grid.yy",},},
     {"id":{"name":"select_Diff","path":"sprites/select_Diff/select_Diff.yy",},},
     {"id":{"name":"select","path":"sprites/select/select.yy",},},
     {"id":{"name":"spr_Back","path":"sprites/spr_Back/spr_Back.yy",},},

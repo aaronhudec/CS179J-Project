@@ -8,12 +8,11 @@ if (keyboard_check(vk_down)) {
     var _hb_top = bbox_top;
     var _hb_bottom = bbox_bottom;
 
-    var _note = collision_rectangle(_hb_left, _hb_top, _hb_right, _hb_bottom, obj_note, false, true);
+    var _note = collision_rectangle(_hb_left, _hb_top-16, _hb_right, _hb_bottom-16, obj_note_blue, false, true);
     if (_note != noone) {
         with (_note) {
             instance_destroy();
         }
-        global.score += 1;
     }
 } else {
     image_index = 0;

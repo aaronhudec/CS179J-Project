@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_note",
+  "%Name":"obj_note_blue",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_note",
+  "name":"obj_note_blue",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Note",
-    "path":"sprites/Note/Note.yy",
+    "name":"Note_blue",
+    "path":"sprites/Note_blue/Note_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
