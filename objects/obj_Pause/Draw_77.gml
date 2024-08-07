@@ -31,6 +31,8 @@ if (keyboard_check_pressed(vk_enter)) {
 	
 	else {
 		pause = false;
+		
+		
 		instance_activate_all();
 		if (surface_exists(pauseSurf)) surface_free(pauseSurf);
 		if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);

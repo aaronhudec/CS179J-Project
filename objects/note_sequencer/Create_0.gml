@@ -1,5 +1,5 @@
-// Get the JSON MIDI data
-var midi_data = file_text_open_read("midi_data.json");
+// Uses room_get_name() to load the current room's midi data file
+var midi_data = file_text_open_read(room_get_name(room) + "_midi_data.json");
 var json_raw_string = "";
 
 while (!file_text_eof(midi_data)) {
@@ -58,19 +58,20 @@ function spawn_note(note_type, note_duration) {
         case "B": x_coordinate = global.columns[5]; break;
     }
 
-    if (layer_exists("Notes")) {
-		if (x_coordinate > 240) {
-			var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note);
-		} else {
-			var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note_blue);
-		}
-        note_instance.type = note_type;
-        note_instance.duration = note_duration;
-        note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier
-        note_instance.direction = 270; // Note moves down
-    } else {
-        show_debug_message("Error: Layer 'Notes' does not exist.");
-    }
+	if (x_coordinate > 240) {
+		var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note);
+		note_instance.type = note_type;
+	    note_instance.duration = note_duration;
+	    note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier
+	    note_instance.direction = 270; // Note moves down
+	} else {
+		var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note_blue);
+		note_instance.type = note_type;
+	    note_instance.duration = note_duration;
+	    note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier
+	    note_instance.direction = 270; // Note moves down
+	}
+ 
 }
 
 // Alarm to delay the start of the music for 3 seconds (180 frames @ 60fps) for "Get ready!" text
