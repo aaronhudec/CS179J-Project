@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"up",
-    "path":"sprites/up/up.yy",
+    "name":"button_up",
+    "path":"sprites/button_up/button_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,

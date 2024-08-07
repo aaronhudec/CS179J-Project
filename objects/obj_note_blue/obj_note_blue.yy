@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Note_blue",
-    "path":"sprites/Note_blue/Note_blue.yy",
+    "name":"note_blue",
+    "path":"sprites/note_blue/note_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

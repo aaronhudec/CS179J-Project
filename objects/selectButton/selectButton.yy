@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"select",
-    "path":"sprites/select/select.yy",
+    "name":"button_select",
+    "path":"sprites/button_select/button_select.yy",
   },
   "spriteMaskId":null,
   "visible":true,
