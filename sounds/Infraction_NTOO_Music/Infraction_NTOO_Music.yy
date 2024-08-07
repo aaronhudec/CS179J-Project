@@ -9,7 +9,7 @@
   "bitRate":320,
   "compression":3,
   "conversionMode":0,
-  "duration":113.11021,
+  "duration":111.28163,
   "name":"Infraction_NTOO_Music",
   "parent":{
     "name":"Sounds",
