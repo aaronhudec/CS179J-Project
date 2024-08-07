@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"down",
-    "path":"sprites/down/down.yy",
+    "name":"button_down",
+    "path":"sprites/button_down/button_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
-  "duration":4.493061,
+  "duration":112.66612,
   "name":"snd_music",
   "parent":{
     "name":"Sounds",
