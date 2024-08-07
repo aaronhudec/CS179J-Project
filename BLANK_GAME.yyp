@@ -59,7 +59,6 @@
     {"id":{"name":"upButton","path":"objects/upButton/upButton.yy",},},
     {"id":{"name":"particle_blue","path":"particles/particle_blue/particle_blue.yy",},},
     {"id":{"name":"particle_red","path":"particles/particle_red/particle_red.yy",},},
-    {"id":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
     {"id":{"name":"Infraction_NTOO_Easy","path":"rooms/Infraction_NTOO_Easy/Infraction_NTOO_Easy.yy",},},
     {"id":{"name":"Infraction_NTOO_Normal","path":"rooms/Infraction_NTOO_Normal/Infraction_NTOO_Normal.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
