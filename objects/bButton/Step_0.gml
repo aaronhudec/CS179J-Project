@@ -2,6 +2,11 @@ image_speed = 0;
 
 if (keyboard_check(ord("B"))) {
     image_index = 1;
+} else {
+    image_index = 0;
+}
+
+if (keyboard_check_pressed(ord("B"))) {
     // Use the object's bounding box for the hitbox
     var _hb_left = bbox_left;
     var _hb_right = bbox_right;
@@ -14,6 +19,4 @@ if (keyboard_check(ord("B"))) {
             instance_destroy();
         }
     }
-} else {
-    image_index = 0;
 }
