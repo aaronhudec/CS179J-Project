@@ -18,9 +18,9 @@ var ticks_per_quarter_note = 96; // 96 ticks in the MIDI data corresponds to a q
 var quarter_note_duration = 60 / tempo; // Duration of a quarter note in seconds
 var tick_duration = quarter_note_duration / ticks_per_quarter_note; // how many seconds are in a tick
 
-// Calculate how fast notes should fall down the screen, based on song tempo
+// Note falling speed, based on song tempo and Y pixels from the spawn point to the yellow GUI bar
 global.fps_cap = 60;
-global.note_speed = room_height / (quarter_note_duration * global.fps_cap);
+global.note_speed = 195 / (quarter_note_duration * global.fps_cap);
 
 // Priority queue to store the notes
 global.pq = ds_priority_create();
@@ -59,13 +59,13 @@ function spawn_note(note_type, note_duration) {
     }
 
 	if (x_coordinate > 240) {
-		var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note);
+		var note_instance = instance_create_layer(x_coordinate, -10, "Notes", obj_note);
 		note_instance.type = note_type;
 	    note_instance.duration = note_duration;
 	    note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier
 	    note_instance.direction = 270; // Note moves down
 	} else {
-		var note_instance = instance_create_layer(x_coordinate, 0, "Notes", obj_note_blue);
+		var note_instance = instance_create_layer(x_coordinate, -10, "Notes", obj_note_blue);
 		note_instance.type = note_type;
 	    note_instance.duration = note_duration;
 	    note_instance.speed = global.note_speed; // Set how fast the note moves, we calculated earlier

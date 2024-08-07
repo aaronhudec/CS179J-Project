@@ -1,0 +1,1 @@
+global.activate_test_mode = false;

@@ -10,5 +10,5 @@ if(obj_SelectSong.x == 160 && obj_SelectSong.y == 96 ) {
 }
 
 else if(obj_SelectSong.x == 160 && obj_SelectSong.y == 192) {
-	room_goto(Menu);
+	room_goto(Menu_Main);
 }
