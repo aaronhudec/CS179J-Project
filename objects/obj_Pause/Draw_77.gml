@@ -18,6 +18,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		pause = true;
 		
 		instance_deactivate_all(true);
+		audio_pause_all();
 		
 		pauseSurf = surface_create(320, 280);
 		surface_set_target(pauseSurf);
@@ -34,6 +35,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		
 		
 		instance_activate_all();
+		audio_resume_all();
 		if (surface_exists(pauseSurf)) surface_free(pauseSurf);
 		if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 	}

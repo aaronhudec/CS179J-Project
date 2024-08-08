@@ -5,7 +5,7 @@ if(obj_SelectSong.x == 160 && obj_SelectSong.y == 96 ) {
 		room_goto(Infraction_NTOO_Normal);
 	}
 	else if (obj_Difficulty.image_index == 0) {
-		room_goto(Menu_Main);
+		room_goto(Infraction_NTOO_Easy);
 	}
 }
 
