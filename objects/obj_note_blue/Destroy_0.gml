@@ -5,7 +5,7 @@ show_debug_message(y)
 // if the note is hit between y = 178 and y = 188 -> perfect
 // otherwise, okay
 // if note passes the bottom screen, miss
-if (y > 175 && y < 180) {
+if (y > 173 && y < 190) {
 	particle_spawner.draw_burst(x,y);
 	global.score += 100;
 } else if (y > room_height){
