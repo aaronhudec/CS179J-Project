@@ -10,4 +10,7 @@ var base_room_name = string_copy(full_room_name, 1, underscore_position - 1);
 var song_name = base_room_name + "_Music";
 
 // Play the song
+// SPEEDTEST: load the song into the game, but don't play it just yet
 self.music_sound_id = audio_play_sound(asset_get_index(song_name), 1, false);
+// SPEEDTEST: load the song into the game, but don't play it just yet
+audio_pause_sound(self.music_sound_id);
