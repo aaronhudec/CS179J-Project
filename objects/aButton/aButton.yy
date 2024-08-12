@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"a",
-    "path":"sprites/a/a.yy",
+    "name":"buttin_a",
+    "path":"sprites/buttin_a/buttin_a.yy",
   },
   "spriteMaskId":null,
   "visible":true,
