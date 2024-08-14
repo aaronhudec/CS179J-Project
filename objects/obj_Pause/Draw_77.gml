@@ -13,6 +13,7 @@ if (pause) {
 	surface_reset_target();
 }
 
+//|| (pauseOptionSelected == 0 && keyboard_check_pressed(ord("A"))
 if (keyboard_check_pressed(vk_enter)) {
 	if (!pause) {
 		pause = true;
@@ -28,10 +29,13 @@ if (keyboard_check_pressed(vk_enter)) {
 		if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 		pauseSurfBuffer = buffer_create(320 * 280 * 4, buffer_fixed, 1);
 		buffer_get_surface(pauseSurfBuffer, pauseSurf, 0);
+
+
 	}
 	
-	else {
+	else if (pause && pauseOptionSelected == 0){
 		pause = false;
+		
 		
 		instance_activate_all();
 		audio_resume_all();
