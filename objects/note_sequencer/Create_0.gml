@@ -17,7 +17,7 @@ var tempo = json_data.tempo;
 var ticks_per_quarter_note = 96; // 96 ticks in the MIDI data corresponds to a quarter note
 var quarter_note_duration = 60 / tempo; // Duration of a quarter note in seconds
 var tick_duration = quarter_note_duration / ticks_per_quarter_note; // how many seconds are in a tick
-var tick_buffer = 20; // SPEEDTEST: buffer to accomodate slower note falling speed
+var tick_buffer = 47; // SPEEDTEST: buffer to accomodate slower note falling speed
 					  // tick_buffer = buffer in seconds * fps
 self.song_time_buffer = 0; // SPEEDTEST: buffer var that gets added to current_song_time
 
