@@ -11,8 +11,8 @@ if (pause) {
 	draw_set_valign(fa_middle);
 	
 	draw_text(160, 32, "Pause");
-	//draw_text(160, 96, "Continue");
-	//draw_text(160, 128, "Exit");
+
+
 	for (var i = 0; i < array_length(pauseOption); ++i) {
 		var _print = "";
 		if (i == pauseOptionSelected) {
