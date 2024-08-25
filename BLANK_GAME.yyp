@@ -45,7 +45,6 @@
     {"id":{"name":"fps_counter","path":"objects/fps_counter/fps_counter.yy",},},
     {"id":{"name":"global_score","path":"objects/global_score/global_score.yy",},},
     {"id":{"name":"leftButton","path":"objects/leftButton/leftButton.yy",},},
-    {"id":{"name":"main_menu_exit_key_combo","path":"objects/main_menu_exit_key_combo/main_menu_exit_key_combo.yy",},},
     {"id":{"name":"note_sequencer","path":"objects/note_sequencer/note_sequencer.yy",},},
     {"id":{"name":"obj_Difficulty","path":"objects/obj_Difficulty/obj_Difficulty.yy",},},
     {"id":{"name":"obj_note_1","path":"objects/obj_note_1/obj_note_1.yy",},},
