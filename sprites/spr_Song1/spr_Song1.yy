@@ -19,8 +19,7 @@
   "height":65,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"893dca53-6005-467b-ad7d-b4037e39c8a4","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"893dca53-6005-467b-ad7d-b4037e39c8a4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"03e39670-ad93-4f6f-bf90-cbe8d2f91fa5","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"03e39670-ad93-4f6f-bf90-cbe8d2f91fa5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"8c9661ce-ecc5-44e8-9266-09ce6f49850c","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"8c9661ce-ecc5-44e8-9266-09ce6f49850c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"f7fc77d7-5f3e-4ca8-9e29-8cc34a07eaad","blendMode":0,"displayName":"default","isLocked":false,"name":"f7fc77d7-5f3e-4ca8-9e29-8cc34a07eaad","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_Song1",
