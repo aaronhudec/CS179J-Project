@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"note_red",
-    "path":"sprites/note_red/note_red.yy",
+    "name":"spr_note_red",
+    "path":"sprites/spr_note_red/spr_note_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,

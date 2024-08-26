@@ -41,7 +41,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		audio_resume_all();
 		
 		if (!global.activate_test_mode) {
-			instance_deactivate_object(test_mode_auto_play);
+			instance_deactivate_object(obj_test_mode_auto_play);
 		}
 		
 		if (surface_exists(pauseSurf)) {

@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_note_1",
+  "%Name":"obj_bButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_note_1",
+  "name":"obj_bButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_note_red",
-    "path":"sprites/spr_note_red/spr_note_red.yy",
+    "name":"spr_button_b",
+    "path":"sprites/spr_button_b/spr_button_b.yy",
   },
   "spriteMaskId":null,
   "visible":true,
