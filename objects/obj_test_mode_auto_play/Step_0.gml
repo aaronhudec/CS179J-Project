@@ -28,10 +28,10 @@ if (collision_point(x_right, obj_rightButton.bbox_top, obj_note_blue, false, tru
 
 // Check collision for the A button
 if (collision_point(x_a, obj_aButton.bbox_top, obj_note, false, true) != noone) {
-    keyboard_key_press(ord("A"));
+    keyboard_key_press(ord("B"));
 }
 
 // Check collision for the B button
 if (collision_point(x_b, obj_bButton.bbox_top, obj_note, false, true) != noone) {
-    keyboard_key_press(ord("B"));
+    keyboard_key_press(ord("A"));
 }
