@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"erik_satie_gymnopedie_no1_short_version_Music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":112.195915,
+  "name":"erik_satie_gymnopedie_no1_short_version_Music",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"erik_satie_gymnopedie_no1_short_version_Music.mp3",
+  "type":0,
+  "volume":1.0,
+}

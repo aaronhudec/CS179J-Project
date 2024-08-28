@@ -3,3 +3,5 @@
 pause = false;
 pauseSurf = -1;
 pauseSurfBuffer = -1;
+pauseOption =["Continue", "Quit Song", "Quit Game"]
+pauseOptionSelected = 0;
